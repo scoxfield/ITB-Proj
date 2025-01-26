@@ -1,0 +1,237 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.connect-button {
+  padding: 15px 30px;  /* Make the button bigger */
+  font-size: 18px;  /* Increase font size */
+  background-color: #4CAF50;  /* Green background */
+  color: white;  /* White text */
+  border: none;  /* Remove border */
+  border-radius: 5px;  /* Rounded corners */
+  cursor: pointer;  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease;  /* Smooth transition for background color */
+}
+
+.connect-button:hover {
+  background-color: #45a049;  /* Slightly darker green on hover */
+}
+
+.mint-button, .burn-button, .disconnect-button {
+  padding: 15px 30px;  /* Make all buttons bigger */
+  font-size: 18px;  /* Increase font size for all buttons */
+  border: none;  /* Remove borders */
+  border-radius: 5px;  /* Rounded corners */
+  cursor: pointer;  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease;  /* Smooth transition for background color */
+  margin-bottom: 15px;  /* Add space between the buttons */
+}
+
+.mint-button {
+  background-color: #4CAF50;  /* Green background for mint */
+  color: white;  /* White text */
+}
+
+.mint-button:hover {
+  background-color: #45a049;  /* Darker green on hover */
+}
+
+.burn-button {
+  background-color: #f44336;  /* Red background for burn */
+  color: white;  /* White text */
+}
+
+.burn-button:hover {
+  background-color: #e53935;  /* Darker red on hover */
+}
+
+.disconnect-button {
+  background-color: #4CAF50;  /* Green background for disconnect (same as mint) */
+  color: white;  /* White text */
+}
+
+.disconnect-button:hover {
+  background-color: #45a049;  /* Darker green on hover */
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;  /* Size of the circle */
+  height: 60px;  /* Size of the circle */
+  border-radius: 50%;  /* Make the button a circle */
+  background-color: #4CAF50;  /* Green background */
+  color: white;  /* White icon color */
+  font-size: 30px;  /* Icon size */
+  text-decoration: none;  /* Remove underline from the link */
+  transition: background-color 0.3s ease;  /* Smooth transition for background color */
+}
+
+.home-button:hover {
+  background-color: #45a049;  /* Darker green on hover */
+}
+
+.arrow-icon {
+  display: inline-block;
+  margin-top: 2px;  /* Adjust vertical position if necessary */
+}
+
+/* Styling for buttons */
+.connect-button,
+.mint-button,
+.burn-button,
+.disconnect-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.connect-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.connect-button:hover {
+  background-color: #45a049;
+}
+
+.mint-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.mint-button:hover {
+  background-color: #45a049;
+}
+
+.burn-button {
+  background-color: red;
+  color: white;
+}
+
+.burn-button:hover {
+  background-color: darkred;
+}
+
+.disconnect-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.disconnect-button:hover {
+  background-color: #45a049;
+}
+
+button:focus {
+  outline: none;
+}
+
+.connect-button, .green-button {
+  width: 100%; /* Full width */
+  padding: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.connect-button {
+  background-color: #007bff; /* Blue color */
+  color: white;
+}
+
+.connect-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.green-button {
+  background-color: #28a745; /* Green color */
+  color: white;
+}
+
+.green-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.Button_buttonVariants__x1s81q0 {
+  padding: 15px 20px !important;  /* Increased padding */
+  font-size: 18px !important;     /* Increased font size */
+  background-color: #4CAF50 !important;  /* Custom background */
+}
+
+.Button_buttonVariants_variant_primary__x1s81q1 {
+  margin-bottom: 20px;  /* Add space below */
+}
